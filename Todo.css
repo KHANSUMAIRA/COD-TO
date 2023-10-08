@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(26, 190, 190);
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    background: url('https://wallpapers.com/images/featured/beautiful-3vau5vtfa3qn7k8v.jpg') no-repeat;
+    background-size: cover;
+    background-position: cover;
+   
+}
+
+.container{
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: hwb(120 94% 5% / 0.829);
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+input{ 
+  
+
+padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(10, 255, 22);
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: hsl(240, 4%, 5%);
+
+    
+  
+
+
+}
+todo-input::placeholder {
+  color: hsl(276, 92%, 49%);
+}
+
+button{
+    width: 60px;
+  height: 41px;
+  background-color: rgb(245, 13, 13);
+  color: #1f1d1d;
+  border: none;
+  cursor: pointer; 
+
+
+  
+  
+}
+
+
+
+
+.text ul{
+  position: relative;
+  background-color: #4bd1e9;
+  color: rgb(16, 17, 17);
+  font-size: 19px;
+  padding: 7px;
+  text-align: left;
+}
+.text ul i{
+
+ 
+  position: absolute; 
+  right: 10px;
+  cursor: pointer; 
+}  
